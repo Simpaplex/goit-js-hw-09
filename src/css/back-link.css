@@ -1,8 +1,18 @@
 .back-link {
-  position: relative;
   display: inline-block;
   padding: 4px 8px;
   margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: #def5ee;
   border: 1px solid;
   border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms ease-in-out, box-shadow 250ms ease-in-out, border 250ms ease-in-out, background-color 250ms ease-in-out;
 }
+
+.back-link:hover {
+  background-color: #a1f9de;
+  transform: scale(1.02);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3)
+}
+
