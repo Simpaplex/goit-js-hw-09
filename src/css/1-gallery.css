@@ -1,5 +1,6 @@
 .gallery {
   margin: 0 auto;
+  margin-bottom: 32px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

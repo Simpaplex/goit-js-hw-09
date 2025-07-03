@@ -27,10 +27,12 @@ body {
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
-  text-align: center;
-}
 
 .main-title {
   margin: 32px 0;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
